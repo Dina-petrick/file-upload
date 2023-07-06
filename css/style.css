@@ -1,0 +1,36 @@
+.file-list{
+    list-style: none;
+}
+
+.file-item{
+    width: 400px;
+    border: 1px solid black;
+    margin-top: 1rem;
+    padding: 0.3rem 1rem;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.file-name{
+    width: 140px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.file-type{
+    width: 160px;
+}
+
+.file-input{
+    display: none;
+}
+
+.upload-btn{
+    display: inline-block;
+    background-color: #404040;
+    color: #fff;
+    padding: .4rem 1rem;
+    cursor: pointer;
+}
