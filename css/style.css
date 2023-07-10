@@ -12,7 +12,7 @@
     gap: 20px;
 }
 
-.file-name{
+.display-file{
     width: 140px;
     white-space: nowrap;
     overflow: hidden;
@@ -34,3 +34,45 @@
     padding: .4rem 1rem;
     cursor: pointer;
 }
+
+.preview-container {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background-color: #00000080;
+    z-index: 10;
+  }
+  
+  .preview-item {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    width: 80%;
+    height: 80%;
+  }
+  
+
+  .preview{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 80%;
+    border: none;
+  }
+
+  .preview-close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
